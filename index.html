@@ -1,151 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="kn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ನಮ್ಮ ಕಾಲೇಜು</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bigg Boss Fan Hub</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
+      font-family: "Poppins", sans-serif;
       margin: 0;
-      padding: 0;
+      background: #fafafa;
+      color: #222;
+      line-height: 1.6;
     }
 
     header {
-      background-color: #000;
-      color: #4efc99;
+      background: #e60000;
+      color: #fff;
+      padding: 1rem;
       text-align: center;
-      padding: 20px 0;
-      font-size: 28px;
-      letter-spacing: 2px;
     }
 
-    .container {
-      max-width: 900px;
-      margin: 30px auto;
-      background-color: #fff;
-      padding: 25px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    header h1 {
+      margin: 0.3rem 0;
     }
 
-    .info {
-      text-align: left;
-      margin-bottom: 30px;
+    nav {
+      margin-top: 0.5rem;
     }
 
-    .info h3 {
-      color: maroon;
-    }
-
-    .image-center {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-
-    .image-center img {
-      width: 100%;
-      max-width: 600px;
-      border-radius: 8px;
-    }
-
-    .form {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-
-  
-
-    .form button {
-      padding: 10px 20px;
-      background-color: #008CBA;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .form button:hover {
-      background-color: #005f73;
-    }
-
-    .links {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-
-    .links a {
-      display: block;
-      margin: 8px 0;
-      color: #2a00b8;
+    nav a {
+      color: #fff;
+      margin: 0 10px;
       text-decoration: none;
       font-weight: bold;
     }
 
-    .links a:hover {
+    nav a:hover {
       text-decoration: underline;
     }
 
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #e60000;
+    }
+
+    iframe {
+      border-radius: 8px;
+      margin-top: 10px;
+      width: 100%;
+      height: 360px;
+    }
+
+    .poll-buttons button {
+      background: #e60000;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .poll-buttons button:hover {
+      background: #c70000;
+    }
+
+    .note {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
     footer {
+      background: #111;
+      color: #fff;
       text-align: center;
-      padding: 15px;
-      background-color: #e1e1e1;
-      color: #333;
+      padding: 1rem;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #ff5757;
+      text-decoration: none;
+    }
+
+    .copy {
+      font-size: 0.8rem;
+      color: #ccc;
     }
   </style>
 </head>
+
 <body>
+  <header>
+    <h1>🎥 Bigg Boss Fan Hub</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#clips">Clips</a>
+      <a href="#recaps">Recaps</a>
+      <a href="#polls">Polls</a>
+    </nav>
+  </header>
 
-  <header>ನಮ್ಮ ಕಾಲೇಜಿಗೆ ಸ್ವಾಗತ</header>
+  <main>
+    <!-- Home -->
+    <section id="home">
+      <h2>ಇಂದಿನ ಹೈಲೈಟ್ಸ್ 🎯</h2>
+      <iframe 
+        src="https://www.youtube.com/embed/YOUR_OFFICIAL_VIDEO_ID"
+        frameborder="0" allowfullscreen>
+      </iframe>
+      <p class="note">⚠️ ಈ ಕ್ಲಿಪ್ ಅಧಿಕೃತ YouTube ಚಾನಲ್‌ನಿಂದ embed ಆಗಿದೆ.</p>
+    </section>
 
-  <div class="container">
+    <!-- Recap -->
+    <section id="recaps">
+      <h2>ಇಂದಿನ ಸಂಕ್ಷಿಪ್ತ 📰</h2>
+      <p>
+        ಇಂದು ಮನೆಯಲ್ಲಿ ಹೊಸ ಅತಿಥಿ ಬಂದರು! ಸ್ಪರ್ಧಿಗಳ ನಡುವೆ ಹೊಸ ವಿವಾದ ಉಂಟಾಯಿತು.
+        ನಾಮಿನೇಷನ್‌ಗಳ ಸಮಯದಲ್ಲಿ ಎಲ್ಲರೂ ತಮ್ಮ strategy ಬದಲಾಯಿಸಿದರು.
+      </p>
+    </section>
 
-    <div class="info">
-      <p><strong>College Code:</strong> 5421</p>
-      <h3>📍 Village: Gunnal</h3>
-      <p><strong>District:</strong> Koppal</p>
-      <p><strong>Taluk:</strong> Yelburga</p>
-    </div>
+    <!-- Poll -->
+    <section id="polls">
+      <h2>Fun Poll 🗳️</h2>
+      <p>ಯಾರು ಈ ವಾರ ಅತ್ಯುತ್ತಮ ಆಟಗಾರ?</p>
+      <div class="poll-buttons">
+        <button onclick="vote('Contestant A')">Contestant A</button>
+        <button onclick="vote('Contestant B')">Contestant B</button>
+        <button onclick="vote('Contestant C')">Contestant C</button>
+      </div>
+      <p id="result"></p>
+    </section>
 
-    <div class="image-center">
-      <img src="https://lh3.googleusercontent.com/gps-cs-s/AC9h4noPTwOdOAp9db8lW4fM-WLv9hHFxXg2jGrQtDIvDPiAHSMpAx6sIAliou4oGAZA_LYQDTmTLKiaSUbTBZ9unovWAgdK_Pc3Z6dvutBAVs5y_H625vhxiHDwR6XlhbEvJCCi_mGs=s680-w680-h510-rw" alt="College Photo">
-    </div>
-
-    <div class="links">
-      <a href="About.html">➡️ GO TO ABOUT PAGE</a>
-      <a href="Admition.html">➡️ GO TO ADMISSION PAGE</a>
-      <a href="Courses.html">➡️ GO TO COURSES PAGE</a>
-      <a href="Facilitis.html">➡️ GO TO FACILITIES PAGE</a>
-      <a href="Contact.html">➡️ GO TO CONTACT PAGE</a>
-    </div>
-    <!-- Your old content here -->
-
-  <!-- Paste this below or anywhere inside <body> -->
-  <h2>Contact Us</h2>
-    <div class="contact-container">
-      <form action="https://api.web3forms.com/submit" method="POST"class="contact-left">
-        <div class="contact-left-title">
-          <h2>Fill The From</h2>
-          <hr>
-        </div>
-        <input type="hidden" name="access_key" value="03222e15-3c59-46dc-85f6-971a25cb96d3">
-        <input type="text" Name="Name" placeholder="your name" class="contact-inputs" required>
-        <br>
-        <input type="email" Name="email" placeholder="your email" class="contact-inputs" required>
-        <br>
-        <textarea name="message" placeholder="your message" class="contact-inputs" required></textarea>
-        <button type="submit">submit </button>
-      </form>
-     </div>
-     <div class="contact-right">
-
-     </div>
-
+    <!-- Clips -->
+    <section id="clips">
+      <h2>More Official Clips 🎞️</h2>
+      <div class="clips">
+        <iframe 
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1"
+          frameborder="0" allowfullscreen></iframe>
+        <iframe 
+          src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2"
+          frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    Thanks for visiting Mahesha B kori website!
+    <p>
+      🎯 Watch full episodes on 
+      <a href="https://www.jiocinema.com/tv-shows/bigg-boss" target="_blank">
+        JioCinema (Official)
+      </a>
+    </p>
+    <p class="copy">© 2025 Bigg Boss Fan Hub | Fan-made site only</p>
   </footer>
 
+  <script>
+    function vote(name) {
+      const result = document.getElementById('result');
+      result.innerText = `ನೀವು ಮತ ನೀಡಿದ್ದೀರಿ: ${name} ✅`;
+      result.style.fontWeight = "bold";
+      result.style.color = "#e60000";
+    }
+  </script>
 </body>
 </html>
